@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>یدک‌کش مسعود زارع | استهبان</title>
+<meta name="description" content="خدمات یدک‌کش ۲۴ ساعته در استهبان و حومه - مسعود زارع - تماس فوری ۰۹۹۱۷۴۷۸۳۲۵">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Tahoma, Vazirmatn, sans-serif;
+    background: #0f0f0f;
+    color: #fff;
+    line-height: 1.8;
+  }
+  header {
+    background: linear-gradient(135deg, #1a1a1a, #2b2b2b);
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 4px solid #ffcc00;
+  }
+  header h1 { color: #ffcc00; font-size: 28px; margin-bottom: 10px; }
+  header p { color: #ddd; font-size: 16px; }
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .hero h2 { font-size: 22px; margin-bottom: 15px; }
+  .hero p { color: #bbb; max-width: 500px; margin: 0 auto 30px; }
+  .call-btn {
+    display: inline-block;
+    background: #ffcc00;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 18px 40px;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 6px 20px rgba(255,204,0,0.35);
+    transition: 0.2s;
+  }
+  .call-btn:hover { transform: scale(1.05); background: #ffd633; }
+  .services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .card {
+    background: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 14px;
+    padding: 25px;
+    text-align: center;
+  }
+  .card .icon { font-size: 34px; margin-bottom: 10px; }
+  .card h3 { color: #ffcc00; font-size: 17px; margin-bottom: 8px; }
+  .card p { color: #aaa; font-size: 14px; }
+  .info {
+    text-align: center;
+    padding: 30px 20px;
+    background: #151515;
+    border-top: 1px solid #:2a2a #2a;
+  }
+  .info p {666 margin: 6px 0; color: #ccc; }
+  .info strong { color: #ffcc00; }
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color;
+    background: #0a0a0a;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🚛 یدک‌کش مسعود زارع</h1>
+  <p>خدمات ۲۴ ساعته یدک‌کش در استهبان و حومه</p>
+</header>
+
+<section class="hero">
+  <h2>خودروت خراب شد؟ نگران نباش!</h2>
+  <p>سریع‌ترین و مطمئن‌ترین یدک‌کش استهبان، شبانه‌روز در خدمت شماست.</p>
+  <a href="tel:09917478325" class="call-btn">📞 تماس فوری: ۰۹۹۱۷۴۷۸۳۲۵</a>
+</section>
+
+<section class="services">
+  <div class="card">
+    <div class="icon">🚗</div>
+    <h3>یدک‌کش خودرو</h3>
+    <p>حمل خودروهای سبک و سنگین</p>
+  </div>
+  <div class="card">
+    <div class="icon">🔋</div>
+    <h3>باتری به باتری</h3>
+    <p>شارژ و تعویض باتری در محل</p>
+  </div>
+  <div class="card">
+    <div class="icon">⛽</div>
+    <h3>سوخت‌رسانی</h3>
+    <p>تحویل سوخت در محل</p>
+  </div>
+  <div class="card">
+    <div class="icon">🔧</div>
+    <h3>خدمات جاده‌ای</h3>
+    <p>کمک‌های اولیه و امداد خودرو</p>
+  </div>
+</section>
+
+<section class="info">
+  <p><strong>📍 محدوده خدمات:</strong> استهبان، ایج، رونیز و حومه</p>
+  <p><strong>📞 شماره تماس:</strong> ۰۹۹۱۷۴۷۸۳۲۵</p>
+  <p><strong>🕒 ساعات کاری:</strong> ۲۴ ساعته، ۷ روز هفته</p>
+</section>
+
+<footer>
+  © ۱۴۰۵ - تمامی حقوق برای یدک‌کش مسعود زارع محفوظ است.
+</footer>
+
+</body>
+</html>
