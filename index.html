@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
- <meta name="google-site-verification" content="d370YryvdYsd2LeC5MFrlmYTG94ON65TR4wP9A7UKlI" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>یدک‌کش مسعود زارع | استهبان</title>
-<meta name="description" content="خدمات یدک‌کش ۲۴ ساعته در استهبان و حومه - مسعود زارع - تماس فوری ۰۹۹۱۷۴۷۸۳۲۵">
+<title>یدک‌کش مسعود زارع | خدمات ۲۴ ساعته امداد خودرو در استهبان</title>
+<meta name="description" content="یدک‌کش مسعود زارع، ارائه‌دهنده خدمات ۲۴ ساعته امداد خودرو، یدک‌کش و حمل خودرو در استهبان، ایج، رونیز و محور شیراز. تماس فوری: 09917478325">
+
+<!-- کدهای ساختاریافته (Schema) برای AEO و سئو -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "یدک‌کش مسعود زارع",
+  "image": "https://abbas200020.github.io/masoud-tow/", 
+  "@id": "https://abbas200020.github.io/masoud-tow/",
+  "url": "https://abbas200020.github.io/masoud-tow/",
+  "telephone": "+989917478325",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "خیابان صنعت",
+    "addressLocality": "استهبان",
+    "addressRegion": "فارس",
+    "addressCountry": "IR"
+  },
+  "areaServed": ["استهبان", "ایج", "رونیز", "محور شیراز"],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "description": "خدمات شبانه‌روزی یدک‌کش، حمل خودروهای سبک و سنگین، خودروبر و امداد خودرو در استهبان و حومه."
+}
+</script>
+
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -27,7 +56,7 @@
     padding: 50px 20px;
   }
   .hero h2 { font-size: 22px; margin-bottom: 15px; }
-  .hero p { color: #bbb; max-width: 500px; margin: 0 auto 30px; }
+  .hero p { color: #bbb; max-width: 600px; margin: 0 auto 30px; text-align: justify; }
   .call-btn {
     display: inline-block;
     background: #ffcc00;
@@ -39,14 +68,15 @@
     text-decoration: none;
     box-shadow: 0 6px 20px rgba(255,204,0,0.35);
     transition: 0.2s;
+    margin: 10px;
   }
   .call-btn:hover { transform: scale(1.05); background: #ffd633; }
   .services {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 40px 20px;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
   }
   .card {
@@ -57,21 +87,29 @@
     text-align: center;
   }
   .card .icon { font-size: 34px; margin-bottom: 10px; }
-  .card h3 { color: #ffcc00; font-size: 17px; margin-bottom: 8px; }
+  .card h3 { color: #ffcc00; font-size: 18px; margin-bottom: 8px; }
   .card p { color: #aaa; font-size: 14px; }
+  
+  /* بخش سوالات متداول برای AEO */
+  .faq-section { padding: 40px 20px; background: #151515; max-width: 800px; margin: 0 auto; border-radius: 14px; margin-bottom: 40px; }
+  .faq-section h2 { text-align: center; color: #ffcc00; margin-bottom: 20px; }
+  .faq-item { margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 10px; }
+  .faq-item h3 { font-size: 16px; color: #eee; margin-bottom: 5px; }
+  .faq-item p { font-size: 14px; color: #aaa; }
+
   .info {
     text-align: center;
     padding: 30px 20px;
     background: #151515;
-    border-top: 1px solid #:2a2a #2a;
+    border-top: 1px solid #2a2a2a;
   }
-  .info p {666 margin: 6px 0; color: #ccc; }
+  .info p { margin: 6px 0; color: #ccc; font-size: 16px; }
   .info strong { color: #ffcc00; }
   footer {
     text-align: center;
     padding: 20px;
     font-size: 13px;
-    color;
+    color: #666;
     background: #0a0a0a;
   }
 </style>
@@ -80,40 +118,62 @@
 
 <header>
   <h1>🚛 یدک‌کش مسعود زارع</h1>
-  <p>خدمات ۲۴ ساعته یدک‌کش در استهبان و حومه</p>
+  <p>خدمات ۲۴ ساعته یدک‌کش و امداد خودرو در استهبان و حومه</p>
 </header>
 
 <section class="hero">
   <h2>خودروت خراب شد؟ نگران نباش!</h2>
-  <p>سریع‌ترین و مطمئن‌ترین یدک‌کش استهبان، شبانه‌روز در خدمت شماست.</p>
+  <p>سریع‌ترین و مطمئن‌ترین یدک‌کش استهبان، شبانه‌روز در خدمت شماست. ما آماده‌ایم تا در هر ساعت از شبانه‌روز، در استهبان، ایج، رونیز و محورهای مواصلاتی شیراز به کمک شما بشتابیم. حمل خودروهای سبک، سنگین و خودروهای تصادفی با بهترین تجهیزات.</p>
   <a href="tel:09917478325" class="call-btn">📞 تماس فوری: ۰۹۹۱۷۴۷۸۳۲۵</a>
+  <br>
+  <a href="https://wa.me/989917478325" class="call-btn" style="background: #25D366; color: white; box-shadow: none;">💬 پیام در واتساپ</a>
 </section>
 
 <section class="services">
   <div class="card">
     <div class="icon">🚗</div>
     <h3>یدک‌کش خودرو</h3>
-    <p>حمل خودروهای سبک و سنگین</p>
+    <p>حمل خودروهای سبک و سنگین در کوتاه‌ترین زمان ممکن</p>
   </div>
   <div class="card">
     <div class="icon">🔋</div>
     <h3>باتری به باتری</h3>
-    <p>شارژ و تعویض باتری در محل</p>
+    <p>شارژ و تعویض باتری خودرو در محل شما</p>
   </div>
   <div class="card">
     <div class="icon">⛽</div>
     <h3>سوخت‌رسانی</h3>
-    <p>تحویل سوخت در محل</p>
+    <p>تحویل سوخت (بنزین و گازوئیل) در محل</p>
   </div>
   <div class="card">
     <div class="icon">🔧</div>
     <h3>خدمات جاده‌ای</h3>
-    <p>کمک‌های اولیه و امداد خودرو</p>
+    <p>کمک‌های اولیه و امداد خودرو در جاده</p>
+  </div>
+</section>
+
+<!-- بخش سوالات متداول (بسیار مهم برای AEO) -->
+<section class="faq-section">
+  <h2>سوالات متداول مشتریان</h2>
+  
+  <div class="faq-item">
+    <h3>آیا خدمات یدک‌کش شما در شبانه‌روز ارائه می‌شود؟</h3>
+    <p>بله، یدک‌کش مسعود زارع به صورت ۲۴ ساعته و در ۷ روز هفته آماده ارائه خدمات امداد خودرو و یدک‌کش در استهبان و حومه است.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>محدوده خدمات شما کجاست؟</h3>
+    <p>ما در شهر استهبان، شهر ایج، رونیز و همچنین محورهای مواصلاتی منتهی به شیراز و جاده‌های اطراف خدمات ارائه می‌دهیم.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>هزینه یدک‌کش در استهبان چگونه محاسبه می‌شود؟</h3>
+    <p>هزینه بر اساس مسافت (مبدا و مقصد) و نوع خودرو محاسبه می‌شود. برای اطلاع از قیمت دقیق، لطفاً با شماره ۰۹۹۱۷۴۷۸۳۲۵ تماس حاصل فرمایید.</p>
   </div>
 </section>
 
 <section class="info">
-  <p><strong>📍 محدوده خدمات:</strong> استهبان، ایج، رونیز و حومه</p>
+  <p><strong>📍 آدرس:</strong> استهبان، خیابان صنعت</p>
   <p><strong>📞 شماره تماس:</strong> ۰۹۹۱۷۴۷۸۳۲۵</p>
   <p><strong>🕒 ساعات کاری:</strong> ۲۴ ساعته، ۷ روز هفته</p>
 </section>
